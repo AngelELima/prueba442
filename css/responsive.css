@@ -1,0 +1,41 @@
+/* Dispositivos pequeños*/
+
+@media only screen and (max-width:767px){
+    .navbar-default{
+        background-color: rgb(58, 88, 95) !important;
+        border-color: #e6e6e6;
+    }
+
+    .navbar-default .navbar-nav >li > a{
+        color: white;
+    }
+
+    .about-iphone img{
+        width: 100%;
+    }
+
+}
+
+/* Dispositivos pequeños y tabletas*/
+
+@media only screen and (max-width:768px){
+
+    .Header-442 {
+       display: none;
+    }
+    .header-text, .header-btns{
+        text-align: center;
+    }
+}
+
+/* Dispositivos medianos, escritorio,*/
+
+@media only screen and (max-width:992px){
+    
+}
+
+/* Dispositivos grandes, pantalla ancha*/
+
+@media only screen and (max-width:1200px){
+    
+}
